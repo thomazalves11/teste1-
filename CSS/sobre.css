@@ -1,0 +1,105 @@
+
+
+#grade {
+    display: grid;
+    background-image: linear-gradient(#0b82a3, #0b6f8d);
+    grid-template-columns:  1fr 1fr ;
+    grid-template-rows: 100px 40px 600px 400px ;
+    grid-template-areas:
+    "header header"
+    "menu menu"
+    " blocoa blocob"
+    "footer footer";
+ }
+
+
+  .header{ 
+    grid-area: header;
+    background-color: #0b82a3;
+    border-radius: 20px;
+
+
+  } 
+
+  .menu{ 
+    grid-area: menu;
+   background-color: #0b6f8d;
+   border-radius: 20px;
+
+  } 
+  .bloco-a{ 
+   grid-area: blocoa;
+   background-color: #3D86FC;
+   margin: 4px;
+  } 
+  .bloco-b {
+    grid-area: blocob;
+    background-color: #4facd1;
+    margin: 4px;
+
+   } 
+  
+   .footer {
+    grid-area: footer;
+    background-color: #0049b8;
+    margin: 4px;
+
+   } 
+   .body-menu {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif ;
+    align-items: center;
+       
+  }
+  #Pagina-Inicial a{
+    color: beige;
+    text-decoration: none;
+    padding: 5px;
+  }
+  #Serviços a{
+    color: beige;
+    text-decoration: none;
+    padding: 5px;
+
+
+  }
+  #Sobre a{
+    color: beige;
+    text-decoration: none;
+    padding: 5px;
+
+
+  }
+  #Contato a{
+    color: beige;
+    text-decoration: none;
+    padding: 5px;
+}
+#logo{
+    font-family: 'Montserrat', sans-serif ;
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+ }
+ .p1 {
+    font-family: 'Roboto', sans-serif;
+    background-color: #3D86FC;
+    display: flex;
+    justify-content:center;
+    color: aliceblue;
+    font-size: 25px;
+    flex-direction: column;
+
+
+
+
+}
+.sobre1 {
+display: flex;
+flex-direction: center;
+justify-content: center;
+
+}

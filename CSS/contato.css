@@ -1,0 +1,234 @@
+
+    #grade {
+        background-image: linear-gradient(#0b82a3, #0b6f8d);
+        display: grid;
+    grid-template-columns:  400px 1fr 400px ;
+    grid-template-rows: 100px 40px 400px 400px 350px ;
+    grid-template-areas:
+    "header header header"
+    "menu menu menu"
+    ". page . "
+    " email . contato-numero"
+    ". form . ";
+ }
+
+.header{ 
+    grid-area: header;
+    background-color: #0b82a3;
+    border-radius: 20px;
+
+
+  } 
+
+  .menu{ 
+    grid-area: menu;
+   background-color: #0b6f8d;
+   border-radius: 20px;
+
+  } 
+  #contato-page{
+    grid-area: page;
+    width: 1700px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #0f6b96;
+    margin-top: 10px;
+    color: aliceblue;
+}
+  #email{
+    grid-area: email;
+    width: 500px;
+    color: aliceblue;
+    background-color: #0f6b96;
+    border-radius: 20px;
+    height: 200px;
+    margin-top: 20px;
+
+}
+
+
+  #contato-numero{
+    grid-area: contato-numero;
+    color: aliceblue;
+    background-color: #0f6b96;
+    border-radius: 20px;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+
+  .formm{
+    grid-area: form;
+    border-radius: 20px;
+    background-color: #135574;
+    margin-top: 10px;
+    color: aliceblue;
+
+}
+  
+ 
+
+  
+   #logo{
+     font-family: 'Montserrat', sans-serif ;
+     text-align: center;
+     color: aliceblue;
+     font-size: 40px;
+  }
+
+  .body-menu {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif ;
+    align-items: center;
+    
+    
+    
+  }
+    #Pagina-Inicial a{
+      color: beige;
+      text-decoration: none;
+      padding: 5px;
+    }
+    #Serviços a{
+      color: beige;
+      text-decoration: none;
+      padding: 5px;
+
+
+    }
+    #Sobre a{
+      color: beige;
+      text-decoration: none;
+      padding: 5px;
+
+
+    }
+    #Contato a{
+      color: beige;
+      text-decoration: none;
+      padding: 5px;}
+
+    #contato-page h1 {
+        font-family: 'Montserrat', sans-serif ;
+        font-size: 50px;
+        display: flex;
+        justify-content: space-evenly;
+
+
+    }
+
+    #contato-page p {
+        font-family: 'Montserrat', sans-serif ;
+        font-size: 30px ;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #email h3 {
+        font-family: 'Montserrat', sans-serif ;
+        font-size: 30px ;
+        display: flex;
+        justify-content: center;
+        width: auto;
+
+
+    }
+    #email p {
+        font-family: 'Montserrat', sans-serif ;
+        font-size: 30px ;
+        display: flex;
+        justify-content: center;
+        height: auto;
+
+
+    }
+
+#contato-numero h3 {
+
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 30px ;
+    display: flex;
+    justify-content: center;
+
+
+}
+#contato-numero p {
+
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 30px ;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.formm{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 40px ;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px ;
+    align-items: center;
+    
+
+}
+
+#msg{
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    width: 500px;
+    height: 100px;
+    float: right;
+    margin-top: 20px;
+    color: black;
+    
+}
+ #nome{
+    width: 600px;
+    height: 20px;
+
+
+}
+ #emaill{
+    width: 600px;
+    height: 20px;
+
+
+
+}
+.botao:hover {
+background: #00193f;
+transition: 1s;
+color: rgb(233, 233, 233);
+border-color: #ffffff;
+height: 50px;
+border-style: outset;
+width: 200px;
+align-items: center;
+font-size: 30px;
+font-family: 'Montserrat', sans-serif;
+text-shadow:rgb(233, 233, 233);
+justify-content: center;
+display: flex;
+
+}
+
+.botao{
+background-color: #2a4a7a;
+height: 50px;
+width: 190px;
+font-family: 'Montserrat', sans-serif;
+border-color: #ffffff;
+border-style: outset;
+font-size: 30px;
+justify-content: center;
+display: flex;
+text-decoration: none;
+}

@@ -1,0 +1,141 @@
+#grade {
+    display: grid;
+    background-image: linear-gradient(#0b82a3, #0b6f8d);
+    grid-template-columns:  1fr 1fr 1fr ;
+    grid-template-rows: 100px 40px 100px 300px 300px  400px ;
+    grid-template-areas:
+    "header header header"
+    "menu menu menu"
+    ". serviços-h1 ."
+    "sdm mp lds"
+    "ct vde pjinst"
+    " footer footer footer";
+ }
+
+
+  .header{ 
+    grid-area: header;
+    background-color: #0b82a3;
+    border-radius: 20px;
+
+
+  } 
+
+  .menu{ 
+    grid-area: menu;
+   background-color: #0b6f8d;
+   border-radius: 20px;
+
+  } 
+  .serviçosh1{ 
+    grid-area: serviços-h1;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif ;
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+   } 
+  .Serviço-de-manutenção{ 
+   grid-area: sdm;
+   margin: 4px;
+   font-family: 'Montserrat', sans-serif ;
+     text-align: center;
+     color: aliceblue;
+     font-size: 20px;
+  } 
+  .manutençao-preventiva {
+    grid-area: mp;
+    margin: 4px;
+    font-family: 'Montserrat', sans-serif ;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+   } 
+   .Limpeza-do-Sistema {
+    grid-area: lds;
+    margin: 4px;
+    font-family: 'Montserrat', sans-serif ;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+   } 
+   .Conforto-termico {
+    grid-area: ct;
+    margin: 4px;
+    font-family: 'Montserrat', sans-serif ;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+   } 
+   .Venda-de-Equipamentos  {
+    grid-area: vde;
+    margin: 4px;
+    font-family: 'Montserrat', sans-serif ;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+   } 
+   .Projeto-de-instalação  {
+    grid-area: pjinst;
+    margin: 4px;
+    font-family: 'Montserrat', sans-serif ;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+   } 
+   .footer {
+    grid-area: footer;
+    background-color: #0049b8;
+    margin: 4px;
+    font-family: 'Montserrat', sans-serif ;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+   } 
+
+  
+   #logo{
+     font-family: 'Montserrat', sans-serif ;
+     text-align: center;
+     color: aliceblue;
+     font-size: 40px;
+     
+  }
+
+  .body-menu {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif ;
+    align-items: center;
+    
+    
+    
+  }
+    #Pagina-Inicial a{
+      color: beige;
+      text-decoration: none;
+      padding: 5px;
+    }
+    #Serviços a{
+      color: beige;
+      text-decoration: none;
+      padding: 5px;
+
+
+    }
+    #Sobre a{
+      color: beige;
+      text-decoration: none;
+      padding: 5px;
+
+
+    }
+    #Contato a{
+      color: beige;
+      text-decoration: none;
+      padding: 5px;
+
+
+    }
